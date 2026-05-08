@@ -3,7 +3,7 @@
 A full-stack collaborative task management web application. Teams can create projects, assign tasks, and track progress with role-based access control.
 
 ## Live Demo
-> team-task-manager-production-3e6e.up.railway.app
+> https://team-task-manager-production-3e6e.up.railway.app/
 
 ## Features
 
