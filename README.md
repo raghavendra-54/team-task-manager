@@ -3,7 +3,7 @@
 A full-stack collaborative task management web application. Teams can create projects, assign tasks, and track progress with role-based access control.
 
 ## Live Demo
-> Add your Railway URL here after deployment
+> team-task-manager-production-3e6e.up.railway.app
 
 ## Features
 
@@ -35,7 +35,7 @@ A full-stack collaborative task management web application. Teams can create pro
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/team-task-manager.git
+git clone https://github.com/raghavendra-54/team-task-manager.git
 cd team-task-manager
 ```
 
@@ -44,7 +44,6 @@ cd team-task-manager
 ```bash
 cd backend
 cp .env.example .env
-# Edit .env and set a strong JWT_SECRET
 npm install
 npm run dev
 ```
@@ -86,7 +85,7 @@ Visit `http://localhost:5173`, create an account, and start managing tasks!
 
 3. **Set Environment Variables** in Railway dashboard:
    ```
-   JWT_SECRET=your_super_strong_secret_here
+   JWT_SECRET=anyrandomlongstring123456789
    NODE_ENV=production
    PORT=5000
    ```
